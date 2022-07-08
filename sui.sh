@@ -70,7 +70,8 @@ sudo systemctl restart suid
 
 
 
-echo "==================================================="
+echo "==========================================================================================================================="    
+
 echo -e '\e[32mCheck your sui status\e[39m' && sleep 1
 if [[ `service suid status | grep active` =~ "running" ]]; then
   echo -e "Your Sui node \e[32minstalled and running\e[39m!"
