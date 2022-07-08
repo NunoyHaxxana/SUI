@@ -75,12 +75,12 @@ echo -e '\e[32mCheck your sui status\e[39m' && sleep 1
 if [[ `service suid status | grep active` =~ "running" ]]; then
   echo -e "Your Sui node \e[32minstalled and running\e[39m!"
 else
-  echo -e "Your Sui node \e[31mwas not installed correctly\e[39m, Please reinstall."
+  echo -e "Your Sui node \e[31mwas incorrect installed\e[39m, Please reinstall."
 fi
 
 echo -e "\e[1m\e[32m6. Usefull commands \e[0m" && sleep 1
-echo -e "Check your node logs: \e[journalctl -fu suid -o cat\e[39m\n\n"
-echo -e "Check your node status: \e[sudo service suid status\e[39m\n\n"
-echo -e "Restart your node: \e[sudo systemctl restart suid\e[39m\n\n"
-echo -e "Stop your node: \e[sudo systemctl stop suid\e[39m\n\n"
-echo -e "Start your node: \e[sudo systemctl start suid\e[39m\n\n"
+echo -e "Check your node logs: \e[1m\e[32m journalctl -fu suid -o cat \e[0m"
+echo -e "Check your node status: \e[1m\e[32m sudo service suid status \e[0m"
+echo -e "Restart your node: \e[1m\e[32m sudo systemctl restart suid \e[0m"
+echo -e "Stop your node: \e[1m\e[32m sudo systemctl stop suid \e[0m"
+echo -e "Start your node: \e[1m\e[32m sudo systemctl start suid \e[0m"
