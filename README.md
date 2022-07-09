@@ -7,7 +7,7 @@
 >:black_square_button: 50GB Storage<br>
 >:black_square_button: Need Super user or root for run this script.<br>
 
-## Official documentation:
+## Official Site:
 - Official web site : https://sui.io/
 - Run a Sui Fullnode : https://github.com/MystenLabs/sui/blob/main/doc/src/build/fullnode.md
 - Node health monitor : https://node.sui.zvalid.com/
