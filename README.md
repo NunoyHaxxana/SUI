@@ -1,6 +1,6 @@
 # Sui Node Setup
 
-### Sui Requirements
+### Sui Node Requirements
 >:black_square_button: OS Ubuntu 18.04 or 20.04 <br>
 >:black_square_button: 2 CPUs<br>
 >:black_square_button: 8GB RAM<br>
@@ -72,7 +72,7 @@ Send a request, the result should be something like this:
 ![image](https://user-images.githubusercontent.com/83507970/178087112-e547a097-83ca-4ea7-aa35-82567a944b86.png)
 
 
-## OPTIONAL Command
+## Optional Command
 Check sui node status
 ```
 service suid status
