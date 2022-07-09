@@ -78,28 +78,28 @@ Check sui node status
 service suid status
 ```
 
-Check node logs
+Check sui node logs
 ```
 journalctl -u suid -f -o cat
 ```
 
-Stop your node
+Stop sui node 
 ```
 sudo systemctl stop suid
 ```
 
-Start your node
+Start sui node 
 ```
 sudo systemctl start suid
 ```
 
 
-Retart your node
+Retart sui node 
 ```
 sudo systemctl restart suid
 ```
 
-Delete your node
+Delete sui node 
 ```
 sudo systemctl stop suid
 sudo systemctl disable suid
