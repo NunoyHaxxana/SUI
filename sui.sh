@@ -74,9 +74,9 @@ echo "==========================================================================
 
 echo -e '\e[32mCheck your sui status\e[39m' && sleep 1
 if [[ `service suid status | grep active` =~ "running" ]]; then
-  echo -e "Your Sui node \e[32minstalled and running\e[39m!"
+  echo -e "Your Sui node \e[32minstalled and running normally\e[39m!"
 else
-  echo -e "Your Sui node \e[31mwas incorrect installed\e[39m, Please reinstall."
+  echo -e "Your Sui node \e[31mwas incorrect installed\e[39m, Please Re-install."
 fi
 
 echo -e "\e[1m\e[32m6. Usefull commands \e[0m" && sleep 1
